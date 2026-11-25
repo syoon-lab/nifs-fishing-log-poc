@@ -1,0 +1,35 @@
+[
+  {
+    "asset": "demo/1.m4a",
+    "transcript": "2026년 11월 2일 오전 10시 5분, 고등어 12킬로그램 잡았다.",
+    "species": "고등어",
+    "catch_kg": 12,
+    "latitude": 35.1,
+    "longitude": 129.2,
+    "started_ms": 1793581500000,
+    "duration_ms": 5535,
+    "sha256": "e20c1e6efba3b48b6f098e797db5beed7ad3ad4d421f057f936643f5dced2ce8"
+  },
+  {
+    "asset": "demo/2.m4a",
+    "transcript": "2026년 11월 2일 오전 10시 15분, 전갱이 8킬로그램 잡았다.",
+    "species": "전갱이",
+    "catch_kg": 8,
+    "latitude": 35.11,
+    "longitude": 129.22,
+    "started_ms": 1793582100000,
+    "duration_ms": 5732,
+    "sha256": "d81d535f7dc786aa8de42642e5d10b281ee8d065d9860709d7e1be15595dd88f"
+  },
+  {
+    "asset": "demo/3.m4a",
+    "transcript": "2026년 11월 2일 오전 10시 25분, 삼치 5킬로그램 잡았다.",
+    "species": "삼치",
+    "catch_kg": 5,
+    "latitude": 35.12,
+    "longitude": 129.24,
+    "started_ms": 1793582700000,
+    "duration_ms": 5616,
+    "sha256": "d925db3936588b466fa2c586f1ecb363b9b50479e83b8e3fb09d4ecd5594d5d4"
+  }
+]

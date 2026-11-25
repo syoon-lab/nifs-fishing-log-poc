@@ -1,0 +1,40 @@
+{
+  "python": "/home/yoon/YOON-WS/voicepeaceing/voicepeaceing-asr/.venv/bin/python",
+  "asr": {
+    "base": {
+      "name": "Whisper large-v3 기본 전사",
+      "engine": "transformers-whisper",
+      "path": "/home/yoon/YOON-WS/voicepeaceing/voicepeaceing-asr/models/whisper-large-v3",
+      "device": "cuda:1"
+    },
+    "dialect": {
+      "name": "경상 방언",
+      "engine": "peft-whisper",
+      "path": "/home/yoon/YOON-WS/voicepeaceing/voicepeaceing-asr/outputs/model_release_20261006/verify_extract/whisper_large_v3_gyeongsang_full_50k_r32_v1/adapter"
+    }
+  },
+  "extractor": {
+    "name": "Qwen3.6 35B 항목 추출",
+    "engine": "ollama",
+    "path": "/home/yoon/YOON-WS/ollama/models",
+    "manifest": "/home/yoon/YOON-WS/ollama/models/manifests/registry.ollama.ai/library/qwen3.6/35b",
+    "model": "qwen3.6:35b",
+    "digest": "07d35212591fc27746f0a317c975a6d68754fb38e9053d82e25f06057af28522",
+    "num_ctx": 16384
+  },
+  "ffmpeg": "/home/yoon/.local/bin/ffmpeg",
+  "ffprobe": "/home/yoon/.local/bin/ffprobe",
+  "extraction_prompt": "/home/yoon/YOON-WS/fishing-log/pc-db/extraction_prompt.txt",
+  "available_dialects": {
+    "gyeongsang": {
+      "name": "경상 방언",
+      "engine": "peft-whisper",
+      "path": "/home/yoon/YOON-WS/voicepeaceing/voicepeaceing-asr/outputs/model_release_20261006/verify_extract/whisper_large_v3_gyeongsang_full_50k_r32_v1/adapter"
+    },
+    "jeolla": {
+      "name": "전라 방언",
+      "engine": "peft-whisper",
+      "path": "/home/yoon/YOON-WS/voicepeaceing/voicepeaceing-asr/outputs/model_release_20261006/verify_extract/whisper_large_v3_jeolla_half_blend_20261005/adapter"
+    }
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "version": 1,
+  "generator": "macOS say Yuna, rate 145; AAC mono 24kHz 64kbps",
+  "prompts": {
+    "date_pot": {
+      "text": "이번에 걷은 통발은 언제 놓았습니까?",
+      "file": "date_pot.m4a",
+      "duration_seconds": 3.165,
+      "bytes": 26655,
+      "sha256": "27caa425764bc76a1b563e713b3c2b13a4889a454c99343b30cffe72ec98f3ad"
+    },
+    "date_net": {
+      "text": "이번에 걷은 자망은 언제 놓았습니까?",
+      "file": "date_net.m4a",
+      "duration_seconds": 3.119,
+      "bytes": 26620,
+      "sha256": "0d23ecc66c4b490797e1624d5cafb987a523f152b7387e9ed751319e42294182"
+    },
+    "haul_pot": {
+      "text": "이번에 걷은 통발은 몇 개입니까?",
+      "file": "haul_pot.m4a",
+      "duration_seconds": 2.887,
+      "bytes": 24645,
+      "sha256": "6a75b59b64dc4efedfc257475bdd800919a61f7174c5cb9a0c7e3e87684bbe18"
+    },
+    "haul_net": {
+      "text": "이번에 걷은 자망은 몇 폭입니까?",
+      "file": "haul_net.m4a",
+      "duration_seconds": 2.875,
+      "bytes": 25426,
+      "sha256": "888f6a766beb9937fc3715464b672eb9923d469d03e5d18bf972d7472e305402"
+    },
+    "reset_pot": {
+      "text": "다시 놓은 통발은 몇 개입니까?",
+      "file": "reset_pot.m4a",
+      "duration_seconds": 2.597,
+      "bytes": 22189,
+      "sha256": "ac7ec0c5fb732e6af0f24e793d0bb7243a117d70e36a51035f0f76e08be22077"
+    },
+    "reset_net": {
+      "text": "다시 놓은 자망은 몇 폭입니까?",
+      "file": "reset_net.m4a",
+      "duration_seconds": 2.539,
+      "bytes": 21430,
+      "sha256": "a6d706d85045ed9547a0b63b4bc8f8808ecc0631abb76ebfabda333d705ede0e"
+    },
+    "disposition": {
+      "text": "어구를 다시 놓았습니까, 전부 철거했습니까?",
+      "file": "disposition.m4a",
+      "duration_seconds": 3.839,
+      "bytes": 32509,
+      "sha256": "83e7963adad50879d35af00bd303f75d7a48ad8d5c4b36b48d032f737fbca75e"
+    },
+    "outcome": {
+      "text": "이번에 잡은 어획물이 있습니까?",
+      "file": "outcome.m4a",
+      "duration_seconds": 2.411,
+      "bytes": 20288,
+      "sha256": "72ab12b5025e133d506f104324306ac48f95e442f3c844fd4681f5a02cb015a7"
+    },
+    "catches": {
+      "text": "어떤 어종을 몇 마리 또는 몇 킬로그램 잡았습니까?",
+      "file": "catches.m4a",
+      "duration_seconds": 4.048,
+      "bytes": 33220,
+      "sha256": "e354f8ae6d176eb704066e25196b02252c43fdbf992d719acafb0e0db299d551"
+    },
+    "catch_species": {
+      "text": "어종 이름과 어획량을 함께 말씀해 주세요.",
+      "file": "catch_species.m4a",
+      "duration_seconds": 3.165,
+      "bytes": 26264,
+      "sha256": "67b7a79d498cfa34eeb7701a61f26f67934f13d4fd084a17fd753fd3727a8c7c"
+    },
+    "catch_amount": {
+      "text": "이 어종은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_amount.m4a",
+      "duration_seconds": 3.351,
+      "bytes": 28314,
+      "sha256": "c6e8a4fae5fad7dc6ccea48d464cae9f969a61af8936ae9fe0c41eadccfd91d1"
+    },
+    "review": {
+      "text": "확인이 필요한 내용이 있습니다. 기록을 다시 확인해 주세요.",
+      "file": "review.m4a",
+      "duration_seconds": 4.531,
+      "bytes": 38271,
+      "sha256": "f8656bce279eaa8833a446d267fdc111afcd1385c1ae8da21bbe92ae706d80c3"
+    },
+    "catch_0": {
+      "text": "붉은대게는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_0.m4a",
+      "duration_seconds": 3.572,
+      "bytes": 29701,
+      "sha256": "b4ae3082f591faaa92f1bfb9d6a88f01fd183998057bd7ec3c1a0b976f76a41e"
+    },
+    "catch_1": {
+      "text": "갑오징어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_1.m4a",
+      "duration_seconds": 3.456,
+      "bytes": 28570,
+      "sha256": "4013412e08f09a73f1905020dd55f7319f3a6dbcd7d7aad51412ef19cada406b"
+    },
+    "catch_2": {
+      "text": "살오징어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_2.m4a",
+      "duration_seconds": 3.478,
+      "bytes": 28709,
+      "sha256": "1b03ebbc3faf4a556e8fa730b5f87cc524aa7ce623b566f2b667a6d36a60f117"
+    },
+    "catch_3": {
+      "text": "참조기는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_3.m4a",
+      "duration_seconds": 3.471,
+      "bytes": 29291,
+      "sha256": "1b7af67b5fd6c00597c60c5af9cb34cf6804c4a1eae1289450a2337d11edc8f0"
+    },
+    "catch_4": {
+      "text": "말쥐치는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_4.m4a",
+      "duration_seconds": 3.467,
+      "bytes": 28569,
+      "sha256": "47ad5fcbffcb09ea132b8ce126aedb7525e90a386b2c3b439a74bd343b5cefa5"
+    },
+    "catch_5": {
+      "text": "참가자미는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_5.m4a",
+      "duration_seconds": 3.599,
+      "bytes": 30193,
+      "sha256": "c63a54e6dec667d5507c6567b29813c891022e2e059400b6fa36475ab86b8a93"
+    },
+    "catch_6": {
+      "text": "붕장어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_6.m4a",
+      "duration_seconds": 3.386,
+      "bytes": 28527,
+      "sha256": "88bbdb04c52147496cb956e4e76050487fbe359a6a3377b472fe932a5b2415cf"
+    },
+    "catch_7": {
+      "text": "먹장어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_7.m4a",
+      "duration_seconds": 3.409,
+      "bytes": 28481,
+      "sha256": "c1cc2b8844ed2087bce777f0e16778ffaa0f574b4d12458aba464a5d4cef49ab"
+    },
+    "catch_8": {
+      "text": "민꽃게는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_8.m4a",
+      "duration_seconds": 3.514,
+      "bytes": 29763,
+      "sha256": "65172816733fe3b4391523f6c40f4f4eaf4916ca7cba0481f1460b1e6ef21984"
+    },
+    "catch_9": {
+      "text": "참돔은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_9.m4a",
+      "duration_seconds": 3.308,
+      "bytes": 27775,
+      "sha256": "b761625e2067b71e58927100a249a0bd4537ff5260bdbf4e22fccbac76092acf"
+    },
+    "catch_10": {
+      "text": "감성돔은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_10.m4a",
+      "duration_seconds": 3.491,
+      "bytes": 28980,
+      "sha256": "58c30eebd857228845977f0054f4f5a88243943d28e03702c26a90902e4f2095"
+    },
+    "catch_11": {
+      "text": "돌돔은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_11.m4a",
+      "duration_seconds": 3.235,
+      "bytes": 26999,
+      "sha256": "e1d8981d3e880fdd89c90f7479c91d4a62e4cf06d54fb40161091addb7d531e7"
+    },
+    "catch_12": {
+      "text": "벵에돔은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_12.m4a",
+      "duration_seconds": 3.327,
+      "bytes": 27335,
+      "sha256": "a28f188f441a623a4c2e4f721266197e5086fd9c719174729b12edef290c52b5"
+    },
+    "catch_13": {
+      "text": "대구는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_13.m4a",
+      "duration_seconds": 3.189,
+      "bytes": 26246,
+      "sha256": "344fad4cb96a1ed729a3d1467108f8a92f0eee980c4b8bbef9bfb0906ce7baec"
+    },
+    "catch_14": {
+      "text": "명태는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_14.m4a",
+      "duration_seconds": 3.293,
+      "bytes": 27469,
+      "sha256": "159ca32333030106f7575546c0c0bd9766128e1d8a392ddf768c52fccc0fa492"
+    },
+    "catch_15": {
+      "text": "갈치는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_15.m4a",
+      "duration_seconds": 3.236,
+      "bytes": 27085,
+      "sha256": "28f8f21d58cf34b116ba1867beef7a291da9b8caae55e7f5fbc0974928da66c7"
+    },
+    "catch_16": {
+      "text": "고등어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_16.m4a",
+      "duration_seconds": 3.317,
+      "bytes": 28236,
+      "sha256": "aef52df4a0c547761a531add2b780eeab34bbee0af79cb86f46f571804ecedb0"
+    },
+    "catch_17": {
+      "text": "삼치는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_17.m4a",
+      "duration_seconds": 3.281,
+      "bytes": 27085,
+      "sha256": "e3dcfc996915fb81a485b362028b526de6c4a82ffe212858fe83a60d2729e62a"
+    },
+    "catch_18": {
+      "text": "전갱이는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_18.m4a",
+      "duration_seconds": 3.408,
+      "bytes": 28093,
+      "sha256": "7e1db235cae7cd16e49fc35e24ab09ddf5153f51f37c6ba40db09d46b9a1da95"
+    },
+    "catch_19": {
+      "text": "멸치는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_19.m4a",
+      "duration_seconds": 3.27,
+      "bytes": 28432,
+      "sha256": "5827a9cb842d1e35a399649e9769b3b48f5f0b837dfa1d8b2230ea1f31d8ab87"
+    },
+    "catch_20": {
+      "text": "꽁치는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_20.m4a",
+      "duration_seconds": 3.254,
+      "bytes": 27050,
+      "sha256": "66db5154d3c62917a41f75e63ebe592ed61faa3bc80c2f2b5cb6127e636dd360"
+    },
+    "catch_21": {
+      "text": "청어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_21.m4a",
+      "duration_seconds": 3.216,
+      "bytes": 27205,
+      "sha256": "5c4aaa41710b949c08627bd1672aa8b57736237b2a32d547e9c7501f507eacc6"
+    },
+    "catch_22": {
+      "text": "정어리는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_22.m4a",
+      "duration_seconds": 3.292,
+      "bytes": 27321,
+      "sha256": "180a17e3edb0cb2fc5186c92ccecc77dcf0df25f3eb6d8575b53a82cd2a52032"
+    },
+    "catch_23": {
+      "text": "전어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_23.m4a",
+      "duration_seconds": 3.187,
+      "bytes": 26842,
+      "sha256": "373f1c40c3e1a87485e8ab7c3554fb5312e0d704a4d84144f0e3b3bf884a8dfc"
+    },
+    "catch_24": {
+      "text": "넙치는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_24.m4a",
+      "duration_seconds": 3.235,
+      "bytes": 26931,
+      "sha256": "b535b06be0f28b043d7a65817ebb003ced2a70a5508657e7612e6709ed4905c9"
+    },
+    "catch_25": {
+      "text": "가자미는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_25.m4a",
+      "duration_seconds": 3.317,
+      "bytes": 27573,
+      "sha256": "576e9fa13a6cfcb9a27092f4fff6dbeb87addf1b8b44884c7cc9a5408975ccd6"
+    },
+    "catch_26": {
+      "text": "농어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_26.m4a",
+      "duration_seconds": 3.165,
+      "bytes": 26593,
+      "sha256": "20585c5ddff54f2da43df3c3cbbaa4f90b7c4f4d5f637b385cbbd97d5fb53c1b"
+    },
+    "catch_27": {
+      "text": "숭어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_27.m4a",
+      "duration_seconds": 3.223,
+      "bytes": 27260,
+      "sha256": "50e455b4e9559d68df65ba9c2f57424387131361b4353761af93719b4151ac17"
+    },
+    "catch_28": {
+      "text": "조피볼락은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_28.m4a",
+      "duration_seconds": 3.628,
+      "bytes": 30366,
+      "sha256": "0b16fa51a1533990283308493251e67b80ae438ef58a11d254f0461878379553"
+    },
+    "catch_29": {
+      "text": "볼락은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_29.m4a",
+      "duration_seconds": 3.223,
+      "bytes": 27092,
+      "sha256": "2cfbacfc0b2f9eded78850ed4e2a6c0a145147493013e1a6aa95b37c9df18fb1"
+    },
+    "catch_30": {
+      "text": "우럭은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_30.m4a",
+      "duration_seconds": 3.131,
+      "bytes": 26371,
+      "sha256": "f63a3833ceec836ca4d93f693ebd392c83a8967112252a8e06a42ce619f54c6d"
+    },
+    "catch_31": {
+      "text": "꽃게는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_31.m4a",
+      "duration_seconds": 3.231,
+      "bytes": 26508,
+      "sha256": "a5390d341e19919ff912e8ef612fb6b7e7dbfbd638f45aff65b518332fca809b"
+    },
+    "catch_32": {
+      "text": "대게는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_32.m4a",
+      "duration_seconds": 3.212,
+      "bytes": 26804,
+      "sha256": "74eb497e4d7f1e5de04376d0a99b4323f2dc7aa73c15db4cfcbc2238a29ac8f2"
+    },
+    "catch_33": {
+      "text": "홍게는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_33.m4a",
+      "duration_seconds": 3.24,
+      "bytes": 26458,
+      "sha256": "9c6155e9dff1f0a51e96bcef7209f6410b51b421f32fbbce0bd3db8c247c81a5"
+    },
+    "catch_34": {
+      "text": "오징어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_34.m4a",
+      "duration_seconds": 3.305,
+      "bytes": 27956,
+      "sha256": "565bbd75c9c60a2b410b6b41e7d1d421d4dbc8e912c36d339414884d55c43463"
+    },
+    "catch_35": {
+      "text": "낙지는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_35.m4a",
+      "duration_seconds": 3.258,
+      "bytes": 27205,
+      "sha256": "40f5af973d8c8f91a78bbd1f3d6572439e365929f2ffaff5254693a8e9368c43"
+    },
+    "catch_36": {
+      "text": "문어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_36.m4a",
+      "duration_seconds": 3.154,
+      "bytes": 26571,
+      "sha256": "30215e8e8e092db421114da3aa22ccf1d2aef96ef9976533fc5a4a67c843f99d"
+    },
+    "catch_37": {
+      "text": "주꾸미는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_37.m4a",
+      "duration_seconds": 3.334,
+      "bytes": 28290,
+      "sha256": "da59658bca6e1a4a67481f535bd2dfa4cb3b3771f52376773cf430efb67c1c4b"
+    },
+    "catch_38": {
+      "text": "쭈꾸미는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_38.m4a",
+      "duration_seconds": 3.334,
+      "bytes": 27969,
+      "sha256": "1de345cca3af6c8a8d6d695c688775ab9d7b3cf04b21b03203461006add5e601"
+    },
+    "catch_39": {
+      "text": "새우는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_39.m4a",
+      "duration_seconds": 3.234,
+      "bytes": 27233,
+      "sha256": "ba7d4f964021945ccb864cfc7be8eccb37884b0bf972bf6279b80372c4e6e926"
+    },
+    "catch_40": {
+      "text": "대하는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_40.m4a",
+      "duration_seconds": 3.177,
+      "bytes": 26426,
+      "sha256": "59003e735b8ac3f5b162b6f61f7ceb249983294bad975fd2d68aec804b9ad00f"
+    },
+    "catch_41": {
+      "text": "꼬막은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_41.m4a",
+      "duration_seconds": 3.173,
+      "bytes": 26700,
+      "sha256": "3c4b60975aecd96d5f9ff3da83f97f727873fa2ab3e81e8de61a034fc491b8b1"
+    },
+    "catch_42": {
+      "text": "바지락은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_42.m4a",
+      "duration_seconds": 3.317,
+      "bytes": 27822,
+      "sha256": "464263cbb10fdf8768478376771c473982a39275129f1cde59b6fb16400eba78"
+    },
+    "catch_43": {
+      "text": "전복은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_43.m4a",
+      "duration_seconds": 3.292,
+      "bytes": 27352,
+      "sha256": "eb89f495fa9c5a320036dd47777abd173736fd34094f72b3f5bd852025d068b1"
+    },
+    "catch_44": {
+      "text": "해삼은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_44.m4a",
+      "duration_seconds": 3.255,
+      "bytes": 27447,
+      "sha256": "6403015df9af4c58a1df2a77a782bbd1e940a418b1000d81a1f9fb77a939ef38"
+    },
+    "catch_45": {
+      "text": "성게는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_45.m4a",
+      "duration_seconds": 3.292,
+      "bytes": 27463,
+      "sha256": "0289a275c1abdfc1fcbf6dbef40c6c73d6fc812e621ffc453dd941c780736e4b"
+    },
+    "catch_46": {
+      "text": "소라는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_46.m4a",
+      "duration_seconds": 3.2,
+      "bytes": 26426,
+      "sha256": "445590d231fce80dac73c0d3665feb71446f1a52dc422ae67e74d6309ff64e9d"
+    },
+    "catch_47": {
+      "text": "가리비는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_47.m4a",
+      "duration_seconds": 3.248,
+      "bytes": 27185,
+      "sha256": "bed47d0349fb23a5995c22d6372b1e07024c5becfa86091098286fd886a0a93c"
+    },
+    "catch_48": {
+      "text": "방어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_48.m4a",
+      "duration_seconds": 3.178,
+      "bytes": 26917,
+      "sha256": "163dbcb7cd6445127a42456f729a0647c389ff68b01c216f916e695fd21a57cf"
+    },
+    "catch_49": {
+      "text": "부시리는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_49.m4a",
+      "duration_seconds": 3.281,
+      "bytes": 27230,
+      "sha256": "c2fd28fb50db3693a20911c770127b1096a9c77970f8bda4ea737012647733dc"
+    },
+    "catch_50": {
+      "text": "가다랑어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_50.m4a",
+      "duration_seconds": 3.445,
+      "bytes": 28658,
+      "sha256": "58b1463f7a9fb3373d1e15308e548d0729f60fa0e983977a0baacfc78fc00182"
+    },
+    "catch_51": {
+      "text": "참다랑어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_51.m4a",
+      "duration_seconds": 3.622,
+      "bytes": 29610,
+      "sha256": "a9b8883aad76b32756c2ffb2e7c1d07f9a877df4bb2d095bdf7823e62acd276c"
+    },
+    "catch_52": {
+      "text": "도루묵은 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_52.m4a",
+      "duration_seconds": 3.293,
+      "bytes": 27941,
+      "sha256": "c2b39a93418a9cdaabbabfefce0477b1bc8e38d16600f7a13d31bbfebc5215fa"
+    },
+    "catch_53": {
+      "text": "임연수어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_53.m4a",
+      "duration_seconds": 3.525,
+      "bytes": 29463,
+      "sha256": "a7bbc5f43b3dc1c37f8d9e2887a2e38528586484453fd50099a474fadb2553d7"
+    },
+    "catch_54": {
+      "text": "복어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_54.m4a",
+      "duration_seconds": 3.188,
+      "bytes": 27142,
+      "sha256": "0fcd372dcfac3d6a4a91d72b6b6da8b5c406d695738d90a107923443c924e9f4"
+    },
+    "catch_55": {
+      "text": "장어는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_55.m4a",
+      "duration_seconds": 3.21,
+      "bytes": 26538,
+      "sha256": "98d805790587f2c4b5204c725f72e955aa9e1619158b8fc670b8fea0f1d388b2"
+    },
+    "catch_56": {
+      "text": "조기는 몇 마리 또는 몇 킬로그램입니까?",
+      "file": "catch_56.m4a",
+      "duration_seconds": 3.21,
+      "bytes": 26932,
+      "sha256": "0536c07b374235a1e2f4ac28ca4a456f48ec81ab95ea12a8c46ce9f49bf7504c"
+    }
+  }
+}

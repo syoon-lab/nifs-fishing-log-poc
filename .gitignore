@@ -1,0 +1,41 @@
+# 허용 목록 방식: 기본은 모두 제외하고, 코드와 실행에 필요한 파일만 올린다.
+# 어업인 녹음·위치·DB, 음성인식 모델, 외부 라이브러리, 검증 원자료는 올리지 않는다.
+/*
+!/.gitignore
+!/README.md
+
+# 스마트폰 앱
+!/android-recorder/
+/android-recorder/*
+!/android-recorder/README.md
+!/android-recorder/build.gradle
+!/android-recorder/settings.gradle
+!/android-recorder/gradle.properties
+!/android-recorder/gradlew
+!/android-recorder/gradlew.bat
+!/android-recorder/gradle/
+!/android-recorder/tools/
+!/android-recorder/app/
+/android-recorder/app/build/
+/android-recorder/app/.cxx/
+/android-recorder/app/src/main/assets/models/*.bin
+
+# PC 검토 프로그램
+!/pc-db/
+/pc-db/data/
+/pc-db/가져온자료/
+/pc-db/검증자료/
+
+# 시험 자료(시험 기기 내보내기, 앱 시험용 음성·DB)는 올리지 않는다.
+/android-recorder/app/src/androidTest/assets/
+
+# 어디서든 제외
+**/__pycache__/
+**/.gradle/
+**/.venv/
+.DS_Store
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
